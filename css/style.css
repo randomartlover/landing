@@ -1,0 +1,86 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Components */
+@import url('components/containers.css');
+@import url('components/banners.css');
+@import url('components/cards.css');
+@import url('components/footer.css');
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.retro-background {
+    background-color: #C6AD94;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    min-height: 50vh;
+}
+
+.modern-background {
+  z-index: 1;
+  position: sticky;
+  background-color: rgb(245 248 249);
+  min-height: 100vh;
+}
+
+.modern-background > div {
+  display: flex;
+  padding: 100px;
+}
+
+.modern-background h2 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.modern-background p {
+  font-size: 18px;
+}
+
+.modern-background h3 {
+  font-size: 25px;
+}
+
+.modern-background img {
+  transform: rotateY(180deg);
+  width: 100%;
+}
+
+.modern-background .image-container {
+  text-align: right;
+  width: 70%;
+}
+
+@media (max-width: 1200px) {
+  .modern-background > div {
+    padding: 40px;
+    display: block;
+  }
+
+  .modern-background img {
+    width: 80%;
+  }
+
+  .retro-background {
+    top: -100vh;
+  }
+}

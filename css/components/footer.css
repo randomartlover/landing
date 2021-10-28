@@ -1,0 +1,24 @@
+footer {
+  background-color: #2b2b48;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul{
+  margin: 0;
+  padding: 10px 50px;
+  list-style: none;
+  text-align: right;
+  /* padding-right: 10px; */
+}
+
+footer i {
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+
+footer i:hover {
+  color: #f9a926;
+}

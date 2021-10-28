@@ -1,0 +1,34 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.card {
+  width: 28%;
+  background-color: #4a06060d;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border: 1px solid brown;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card img {
+  width: 65%;
+  display: flex;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .cards {
+    display: block;
+  }
+
+  .card {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
