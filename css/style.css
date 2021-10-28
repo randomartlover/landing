@@ -8,6 +8,7 @@
 @import url('components/containers.css');
 @import url('components/banners.css');
 @import url('components/cards.css');
+@import url('components/buttons.css');
 @import url('components/footer.css');
 
 
@@ -28,7 +29,7 @@ a {
 /* Custom design below! */
 
 .retro-background {
-    background-color: #C6AD94;
+    background-color: #ebe5d3;
     padding: 10px 0;
     position: sticky;
     top: 0;
